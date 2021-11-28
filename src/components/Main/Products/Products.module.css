@@ -1,0 +1,40 @@
+.products_container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_header {
+  text-align: center;
+  width: 45%;
+  margin-bottom: 50px;
+}
+
+.product_header h3 {
+  color: #abb5bd;
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+
+.product_header h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0 0 16px;
+}
+
+.product_header p {
+  font-size: 16px;
+  color: #808080;
+}
+
+.products_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 30px;
+}
+
+.products_wrapper a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,28 @@
+.card_img_box,
+.card_item_title,
+.card_item_price,
+.item_actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.card_img_box {
+  width: 100px;
+  background-color: #fff;
+}
+
+.card_img_box img {
+  padding: 20px;
+  width: 100%;
+}
+
+.item_actions button {
+  margin: 0 10px;
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}

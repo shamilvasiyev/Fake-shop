@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  margin: 10vh 0;
+}
+
+.image_box,
+.text_box {
+  flex: 1 1 50%;
+  padding: 0 15px;
+}
+
+.image_box img {
+  width: 100%;
+}
+
+.text_box button {
+  padding: 6px 12px;
+  border: 3px solid #000;
+  background-color: #000;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.text_box button:hover {
+  background-color: #fff;
+  color: black;
+}

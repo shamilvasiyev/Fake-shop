@@ -1,0 +1,54 @@
+.wrapper {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.wrapper::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-image: url("../../../assets/shoppin1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  color: white;
+}
+
+.content h1 {
+  font-size: 80px;
+  margin: 0 0 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.content p {
+  font-size: 20px;
+  margin: 0 0 48px;
+}
+
+.content button {
+  font-size: 12px;
+  font-weight: 900;
+  padding: 16px 48px;
+  border: 2px solid white;
+  width: fit-content;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
