@@ -14,7 +14,9 @@ const ProductsPage = ({ products }) => {
   let searchedProduct = [];
 
   const searchedValue = products.forEach((item) => {
-    if (item.title.toLocaleLowerCase().includes(inputValue)) {
+    if (
+      item.title.toLocaleLowerCase().includes(inputValue.toLocaleLowerCase())
+    ) {
       searchedProduct.push(item);
     }
   });
@@ -61,18 +63,3 @@ const ProductsPage = ({ products }) => {
 };
 
 export default ProductsPage;
-// {products.map((p) => (
-//   <option>{p.category}</option>
-// ))}
-
-// {
-//   products.map((item) => (
-//     <ProductsContainer
-//       id={item.id}
-//       image={item.image}
-//       title={item.title}
-//       price={item.price}
-//       key={item.id}
-//     />
-//   ));
-// }
