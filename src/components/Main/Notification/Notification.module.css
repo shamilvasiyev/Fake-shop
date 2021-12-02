@@ -66,3 +66,17 @@
   background-color: #fff;
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .section_content {
+    width: 100%;
+  }
+  .input_box input {
+    padding: 5px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .input_box button {
+    padding: 5px;
+  }
+}

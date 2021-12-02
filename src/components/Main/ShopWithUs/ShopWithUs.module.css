@@ -52,3 +52,16 @@
   background: transparent;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  .content button {
+    padding: 8px 20px;
+  }
+}

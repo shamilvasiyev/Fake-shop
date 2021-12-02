@@ -27,3 +27,13 @@
   background-color: #fff;
   color: black;
 }
+
+@media screen and (max-width: 950px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .image_box,
+  .text_box {
+    padding: 15px 0;
+  }
+}
