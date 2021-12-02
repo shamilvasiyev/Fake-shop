@@ -53,3 +53,61 @@
 .nav_links a:hover {
   color: #f3793a;
 }
+
+.menu_icon_box {
+  display: none;
+}
+
+.menu_icon_box button {
+  cursor: pointer;
+  background-color: #fff;
+  color: #5a5a5a;
+  border: 1px solid black;
+}
+
+.menu_icon_box i {
+  font-size: 20px;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  transition: 0.5s;
+  padding: 30px 50px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.menu button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu button i {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 870px) {
+  .nav_links {
+    display: none;
+  }
+  .menu_icon_box {
+    display: block;
+  }
+}
