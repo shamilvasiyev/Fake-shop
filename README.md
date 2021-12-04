@@ -4,10 +4,10 @@ This is a simple online shop website created with React.js.
 
 ## Technologies used in this project
 
-- &#xf13b; HTML
-- &#xf13c; CSS
-- &#xf3b9; JavaScript
-- &#xf41b; React.js
+- HTML
+- CSS
+- JavaScript
+- React.js
 - Redux
 
 ## Demo
