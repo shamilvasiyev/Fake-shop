@@ -14,4 +14,4 @@ This is a simple online shop website created with React.js.
 
 The website is deployed to Heroku and you can see demo by clicking the link below.
 
-[Shop-concept](https://shop-concept.herokuapp.com/)
+[[Shop-concept](https://shop-concept.herokuapp.com/)](https://shop-concept.vercel.app/)
