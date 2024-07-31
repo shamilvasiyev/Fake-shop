@@ -12,15 +12,14 @@ import Card from "./paces/Card/Card";
 import NoContentFound from "./paces/NoContentFound/NoContentFound";
 
 import { useState, useCallback, useEffect } from "react";
-
 import { useSelector } from "react-redux";
+
 import AboutUs from "./paces/AboutUs/AboutUs";
 
 function App() {
   const [products, setProducts] = useState([]);
 
   const cardItems = useSelector((state) => state.card.items);
-
   const totalPrices = cardItems?.map((p) => p.totalPrice);
   const total = totalPrices.reduce((a, b) => a + b, 0);
 
